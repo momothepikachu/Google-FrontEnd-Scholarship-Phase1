@@ -12,7 +12,7 @@ Build a single-page web app that allows users to draw pixel art on a customizabl
 
 #### Project 2: Animal Trading Cards
 Design and convert a prototype into a functional webpage!
-![screenshot](Project2-Animal-Trading-Cards-Overview/project2-snapshot.png)
+![screenshot](Project2-Animal-Trading-Cards-Overview/project2-snapshot.PNG)
 - [CodePen link](https://codepen.io/Momothepikachu/full/mpjMQO)
 
 #### Project 1: Mockup to Article
