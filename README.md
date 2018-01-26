@@ -1,6 +1,6 @@
 # Grow with Google Challenge Scholarship
 
-**Grow with Google Challenge Scholarship** to the **Front-End Developer track** is a 3-month challenge course, which I was able to complete it in 2 weeks. Hooray!
+**Grow with Google Challenge Scholarship** to the **Front-End Developer track** is a 3-month challenge course, which I was able to complete in 2 weeks. Hooray!
 
 ![screenshot](GrowWithGoogleDeveloperChallengeScholarship.png)
 
