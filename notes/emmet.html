@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+    body {
+      /*w100*/
+      width: 100px;
+      /*h10p*/
+      height: 10%;
+      /*m5e*/
+      margin: 5em;
+    }
+    /*@f*/
+    @font-face {
+      font-family:;
+      src:url();
+    }
+    .class {
+      color: red;
+      background-color: #fff;
+      border:#4DD327;
+    }
+  </style>
+</head>
+<body>
+  <!-- p.foo -->
+  <p class="foo"></p>
+  <!-- a[href] -->
+  <a href=""></a>
+  <!-- h1+h2 -->
+  <h1></h1>
+  <h2></h2>
+  <!-- p>span -->
+  <p><span></span></p>
+  <!-- h1^p>h2 -->
+  <h1></h1>
+  <p>
+    <h2></h2>
+  </p>
+  <!-- (.foo>h2)+(.bar>h1) -->
+  <div class="foo">
+    <h2></h2>
+  </div>
+  <div class="bar">
+    <h1></h1>
+  </div>
+  <!-- ul -->
+  <ul>
+    <!-- .item -->
+    <li class="item"></li>
+  </ul>
+  <!-- ul>li*3 -->
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <!-- ul>li.item$*3 -->
+  <ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+  </ul>
+</body>
+</html>

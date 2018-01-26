@@ -1,0 +1,20 @@
+You've learned a lot about web development so far. 
+I want you to take a moment to write down your thoughts about web development here. 
+Answer the following questions:
+  
+* What new skills have you learned?
+
+  I learned many ways to format the texts.
+* What has been easy?
+
+  This is a simple website to mockup.  
+* What has been difficult?
+
+  Looking up online how to mockup the exact style of the article is not easy, but also a fun process.
+* How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+
+  
+---
+
+Your response goes here!

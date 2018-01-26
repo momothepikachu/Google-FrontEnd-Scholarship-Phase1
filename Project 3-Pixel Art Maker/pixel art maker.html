@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pixel art maker</title>
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="title-font">Pixel Art Maker</h1>
+			</div>
+		</div>
+	    <form id="sizePicker" class="row">
+	    	<div class="col-md-6">
+		    	Grid Height:
+		        <input type="number" id="input_height" name="height" min="1" value="20">
+		        Grid Width:
+		        <input type="number" id="input_width" name="width" min="1" value="20">
+		        <input type="submit" id='button'>
+	        </div>
+	        <div class="col-md-6">
+				Pick A Color:
+	        	<input type="color" id="colorPicker" value="#24819f">
+        	</div>
+	    </form>
+		<div class="row">
+			<div class="col-md-12">
+			    <h2>Design Canvas</h2>
+			    <table id="pixel_canvas"></table>
+			    <button type="button" id="cleartable">Clear</button>
+			</div>
+		</div>	    
+	    <script src="design.js"></script>
+
+	</div>
+</body>
+</html>

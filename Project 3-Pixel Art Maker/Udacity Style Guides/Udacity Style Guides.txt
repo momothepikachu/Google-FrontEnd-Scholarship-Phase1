@@ -1,0 +1,5 @@
+CSS styling guide: http://udacity.github.io/frontend-nanodegree-styleguide/css.html
+HTML Style Guide:http://udacity.github.io/frontend-nanodegree-styleguide/index.html
+JavaScript Style Guide:http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html
+Git Style Guide: https://udacity.github.io/git-styleguide/
+You don't know JS(const/let/var): https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20%26%20beyond/ch2.md

@@ -1,0 +1,50 @@
+.title-font {
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+}
+
+#sizePicker,
+h2,
+h6,
+button {
+    font: italic small-caps bold 20px 'Audiowide', cursive;
+    color: grey;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+input[type="number"] {
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    width: 120px;
+    margin: 10px 20px 10px 0;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border: 3px solid #555;
+}
+
+input[type="submit"],
+button {
+    border-radius: 4px;
+    width: 100px;
+}
+
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+}
+
+table,
+button{
+    margin: 10px auto 10px auto; 
+}
