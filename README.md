@@ -9,7 +9,7 @@
 #### Project 3: Pixel Art Maker
 - Build a single-page web app that allows users to draw pixel art on a customizable canvas!
 
-![screenshot](Project3-Pixel-Art-Maker/project3-snapshot.png)
+![screenshot](Project3-Pixel-Art-Maker/project3-newsnapshot.png)
 - [Pixel Art Maker Link](https://codepen.io/Momothepikachu/full/vpqoqK)
 ---
 
