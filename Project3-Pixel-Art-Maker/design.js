@@ -35,7 +35,7 @@ $(removeColor)
 function clearUp() {
 	$('#cleartable').click(function(e) {
     e.preventDefault();
-		$('tr, h6').remove();
+		$('td').css('background-color', '');
 	});
 }
 $(clearUp)
