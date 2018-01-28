@@ -2,20 +2,31 @@ function makeGrid() {
 	$('#button').click(function(e) {
     e.preventDefault();
     $('tr, h6').remove()
-		let hei = $('#input_height').val();
-		let wid = $('#input_width').val();
-		for (i = 0; i < hei; i++) {
-			$('#pixel_canvas').append('<tr></tr>');
-		};
-    let j = 0;
-		while (j < wid) {
-			$('tr').append('<td></td>');
-      j++;
-		};
+	let height = $('#input_height').val();
+	let width = $('#input_width').val();
+	//Table-Solution-1:
+	// for (i = 0; i < height; i++) {
+	// 	$('#pixel_canvas').append('<tr></tr>');
+	// };
+    // let j = 0;
+	// while (j < width) {
+	// 	$('tr').append('<td></td>');
+    //  j++;
+	// };
+	//
+	//Table-Solution-2:Using *vanilla JavaScript*:
+	const table = document.getElementById('pixel_canvas');
+	for (let i = 0; i < height; i++) {
+		//Insert rows into the table
+		const row = table.insertRow(i);
+		for (let j = 0; j < width; j++) {
+			//Insert cells into each of the rows
+			const cell = row.insertCell(j);
+		}
+	}
     $('<h6 style="font-size: 15px;">(click a cell in the grid to fill that cell with the chosen color, double click to remove the color)</h6>').insertAfter('h2')
 	})
 }
-$(makeGrid)
 
 function addColor() {
 	$('table').on('click','td', function(event) {
@@ -23,14 +34,12 @@ function addColor() {
 		$(this).css('background-color', $('#colorPicker').val());
 	})
 }
-$(addColor)
 
 function removeColor() {
   $('table').on('dblclick','td', function() {
     $(this).css('background-color', '');
   })
 }
-$(removeColor)
 
 function clearUp() {
 	$('#cleartable').click(function(e) {
@@ -38,4 +47,12 @@ function clearUp() {
 		$('td').css('background-color', '');
 	});
 }
-$(clearUp)
+
+function init() {
+  makeGrid();
+  addColor();
+  removeColor();
+  clearUp();
+}
+
+$(document).ready(init);
