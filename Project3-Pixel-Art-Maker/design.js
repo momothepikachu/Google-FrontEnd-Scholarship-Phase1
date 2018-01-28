@@ -22,6 +22,8 @@ function makeGrid() {
 		for (let j = 0; j < width; j++) {
 			//Insert cells into each of the rows
 			const cell = row.insertCell(j);
+			cell.addEventListener('click', addColor);
+			cell.addEventListener('dblclick', removeColor);
 		}
 	}
     $('<h6 style="font-size: 15px;">(click a cell in the grid to fill that cell with the chosen color, double click to remove the color)</h6>').insertAfter('h2')
@@ -29,16 +31,12 @@ function makeGrid() {
 }
 
 function addColor() {
-	$('table').on('click','td', function(event) {
-		event.preventDefault();
-		$(this).css('background-color', $('#colorPicker').val());
-	})
+	$(this).css('background-color', $('#colorPicker').val());
 }
 
+
 function removeColor() {
-  $('table').on('dblclick','td', function() {
     $(this).css('background-color', '');
-  })
 }
 
 function clearUp() {
